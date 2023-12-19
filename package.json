@@ -1,0 +1,17 @@
+{
+  "name": "flask-tutorial",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "bun-types": "latest",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "dev": "bunx tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
